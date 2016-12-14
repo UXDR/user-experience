@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+.weekRow {
+    font-size: 0;
+    line-height: 0;	
+}
+.dayHeader {
+	height: 45px;
+	background-color: rgba(45, 53, 60, 1);
+	box-sizing: border-box;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(121, 121, 121, 1);
+	border-radius: 0px;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #FFFFFF;
+	text-align: center;	
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    left: 25%;
+	width: 112px;
+}
+.dayBody:hover {
+	background-color: white;
+}
+.dayBody:active {
+	background-color: grey;
+}
+.dayBody {
+	height: 112px;
+	background-color: rgba(242, 242, 242, 1);
+	box-sizing: border-box;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(188, 188, 188, 1);
+	border-radius: 0px;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-size: 20px;
+	text-align: left;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    left: 25%;
+	width: 112px;
+}
+.nextMonth {
+	font-family: 'ArialMT', 'Arial';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	color: #333333;
+	line-height: normal;
+}
+.timeslot {
+    background: inherit;
+    background-color: rgba(22, 155, 213, 1);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(22, 155, 213, 1);
+    border-radius: 4px;
+	font-size: 12px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    color: #FFFFFF;
+	padding: 4px;
+    text-align: center;
+}
+.appointment {
+	font-size: 12px;
+    padding: 30px;
+}
+button {
+	background-color: rgba(242, 242, 242, 1) !important;
+	border: none !important;
+	font-size: 16px !important;
+	font-weight: 600 !important;
+}
+button:hover {
+	background-color: rgba(188, 188, 188, 1) !important;
+}
+.row-content {
+    text-align: center;
+    margin-bottom: 3px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.week-row .row-section {
+    float: left;
+    width: 100%;
+}
+.week-row>div {
+    font-size: 16px;
+    line-height: 26px;
+}
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+.appointment-list {
+    display: table;
+    max-width: 756px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.appointment-list-item {
+    display: table-cell;
+    float: left;
+    line-height: 40px;
+    min-height: 40px;
+    min-width: 110px;
+    margin: 6px 8px;
+    border: 1px solid #D1D1D1;
+}
+.appointment-link {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: block;
+}
+.appointment-ampm {
+    font-size: 16px;
+    font-weight: normal;
+}
+.calendar-container { min-width: 992px; }
+.calendar-row { width: 784px; }
+.active {
+	background-color: #BABABA !important;
+}

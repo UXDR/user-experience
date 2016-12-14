@@ -1,0 +1,1716 @@
+<!DOCTYPE html>
+<!-- saved from url=(0077)https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Calendar -->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Calendar | ESS Web</title>
+<link rel="shortcut icon" href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/favicon.ico" type="image/x-icon">
+<link href="Calendar _ ESS Web_files/editor.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/dialog.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/contents.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/fonts.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/jquery-ui.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/bootstrap.css" rel="stylesheet">
+<link href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/Content/font-awesome.css?bundleVirtualPath=~%2fcontent%2f1" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/foundation-icons.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/animate.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/style.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/style-responsive.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/bootstrap-datepicker.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/bootstrap-datepicker3.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/bootstrap-datepaginator.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/jquery.timepicker.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/jquery-jvectormap-1.2.2.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/aria-select.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/jquery.gritter.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/Site.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/fullcalendar.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/PrintCustom.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/jstree.css" rel="stylesheet">
+<link href="Calendar _ ESS Web_files/Payment.css" rel="stylesheet">
+<style>
+.cke {
+	visibility: hidden;
+}
+.small-notification {
+	width: 10px;
+	heigh: 10px;
+	display: block;
+	background: #ff5b57;
+	line-height: 12px;
+	font-weight: 300;
+	padding: .3em .6em .3em;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.my-popover-content {
+	display: none;
+}
+.popover {
+	min-width: 450px;
+}
+</style>
+<style type="text/css">
+.jqstooltip {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+	background: rgb(0, 0, 0) transparent;
+	background-color: rgba(0,0,0,0.6);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+	color: white;
+	font: 10px arial, san serif;
+	text-align: left;
+	white-space: nowrap;
+	padding: 5px;
+	border: 1px solid white;
+	z-index: 10000;
+}
+.jqsfield {
+	color: white;
+	font: 10px arial, san serif;
+	text-align: left;
+}
+</style>
+</head>
+
+<body class="cc-green" data-cbs="EPS5|DEPT|USRS|Calendar|Calendar|Index" data-zan="Index" data-zcn="Calendar" data-zarn="Calendar">
+<noscript>
+&lt;div id="msgNojs"&gt;&lt;a href="http://enable-javascript.com/" target="_blank" title="This site requires JavaScript. Click here for instructions on enabling it in your browser. (opens in a new window)"&gt;This site requires JavaScript. Click here for instructions on enabling it in your browser.&lt;/a&gt;&lt;/div&gt;
+</noscript>
+<div id="page-loader" class="fade in hide"><span class="spinner"></span></div>
+<div id="skipLinks" class="readers">
+  <ul>
+    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Calendar#content">skip to content</a></li>
+    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Calendar#pagenav">skip to section navigation</a></li>
+  </ul>
+</div>
+<div id="page-container" class="fade page-sidebar-fixed page-header-fixed page-with-two-sidebar page-right-sidebar-collapsed in">
+  <div id="header" class="header navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <div class="navbar-brand bg-green fg-white"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS" title="ESS Web"><img src="Calendar _ ESS Web_files/ess-web-logo.png" alt="ESS Web logo"></a></div>
+        <div class="orgsitepicker"> <span class="navbar-text"><a class="sitepicker-launch" href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Calendar#">Org: <span class="badge badge-success">DEPT</span>, Site: <span class="badge badge-success">USRS</span><span class="readers">(Opens the site picker)</span></a></span>
+          <div class="sitepicker">
+            <div class="row">
+              <div class="col-xs-12 col-lg-12 col-xl-12 islogical islogical" style="margin-left: 0px; margin-right: 0px; width: calc(100% - 0px);">
+                <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-RealInfo" style="margin-left: 0px; margin-right: 0px; width: calc(100% - 0px);">
+                  <div data-zdn="RealInfo" id="InnerContainerFor-RealInfo">
+                    <h4>Primary Org/Site</h4>
+                    <dl>
+                      <dt>Org</dt>
+                      <dd>(DEPT) Department</dd>
+                      <dt>Site</dt>
+                      <dd>(USRS) IES National Office User attachment Site</dd>
+                    </dl>
+                    <h4>Current Org/Site</h4>
+                  </div>
+                  <!--column size div tag for property--> 
+                </div>
+                <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-EffectiveOrg" style="margin-left: 0px; margin-right: 0px; width: calc(100% - 0px);">
+                  <label class="control-label " for="EffectiveOrg">Org</label>
+                  <a role="presentation" class="errorTip" href="javascript:;" data-zet="EffectiveOrg" style="display:none"><span class="field-validation-valid" data-valmsg-for="EffectiveOrg" data-valmsg-replace="true"></span></a>
+                  <div id="InnerContainerFor-EffectiveOrg">
+                    <select class="rhea-ajax" data-zcroi="[{&quot;DependentProperty&quot;:&quot;ReadOnlyOrg&quot;,&quot;ComparisonType&quot;:&quot;EqualTo&quot;,&quot;DependentValue&quot;:true,&quot;PassOnNull&quot;:false,&quot;FailOnNull&quot;:false,&quot;Always&quot;:false,&quot;Group&quot;:null}]" data-zdn="Org" data-zfp="" data-zict="true" data-zlz="true" data-zp="" data-zrot="disabled" data-zu="/DEV/ESSWEB/EPS5/DEPT/USRS/Ajax/SelectOrg" id="EffectiveOrg" name="EffectiveOrg" multiple="multiple" style="display: none;">
+                      <option selected="selected" value="DEPT">(DEPT) Department</option>
+                    </select>
+                    <div class="amc-aria-multi-complete single-select">
+                      <input readonly type="text" aria-label="Org" class="form-control" style="display: none;">
+                      <div class="amc-box form-control" tabindex="0" aria-expanded="false" role="application"><i class="fa fa-search right-icon"></i><span id="amc-0-selected-label" class="reader-only">Selected values for autocomplete Org. Press enter to view list options.</span>
+                        <ul class="amc-selected-choices" aria-labelledby="amc-0-selected-label">
+                          <li data-value="DEPT" role="option" id="amc-0-c0"><span>(DEPT) Department</span>
+                            <button type="button"><span aria-hidden="true"> × </span><span class="reader-only">Remove (DEPT) Department</span></button>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="amc-listbox" style="display: none;">
+                        <input type="text" role="combobox" aria-autocomplete="list" aria-multiselectable="true" aria-owns="amc-0-list" aria-activedescendant="" aria-label="Select Org, start typing then use tab key so access values" class="form-control">
+                        <div class="amc-list-substitute" aria-hidden="true" style="display: none;">Loading...</div>
+                        <div class="amc-list-substitute" aria-hidden="true" style="display: none;">No matches</div>
+                        <div class="amc-list-substitute" aria-hidden="true" style="display: none;">Error</div>
+                        <ul class="amc-all-choices" id="amc-0-list" style="display: none;">
+                        </ul>
+                        <div tabindex="0" class="reader-only"></div>
+                      </div>
+                      <div class="reader-only" aria-live="assertive" aria-relevant="additions"><span></span></div>
+                    </div>
+                  </div>
+                  <!--column size div tag for property--> 
+                </div>
+                <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-EffectiveSite" style="margin-left: 0px; margin-right: 0px; width: calc(100% - 0px);">
+                  <label class="control-label " for="EffectiveSite">Site</label>
+                  <a role="presentation" class="errorTip" href="javascript:;" data-zet="EffectiveSite" style="display:none"><span class="field-validation-valid" data-valmsg-for="EffectiveSite" data-valmsg-replace="true"></span></a>
+                  <div id="InnerContainerFor-EffectiveSite">
+                    <select class="rhea-ajax" data-zdn="Site" data-zfp="" data-zict="true" data-zlz="true" data-zp="EffectiveOrg" data-zrot="disabled" data-zu="/DEV/ESSWEB/EPS5/DEPT/USRS/Ajax/SelectSite" id="EffectiveSite" name="EffectiveSite" multiple="multiple" style="display: none;">
+                      <option selected="selected" value="USRS">(USRS) IES National Office User attachment Site</option>
+                    </select>
+                    <div class="amc-aria-multi-complete single-select">
+                      <input readonly type="text" aria-label="Site" class="form-control" style="display: none;">
+                      <div class="amc-box form-control" tabindex="0" aria-expanded="false" role="application"><i class="fa fa-search right-icon"></i><span id="amc-1-selected-label" class="reader-only">Selected values for autocomplete Site. Press enter to view list options.</span>
+                        <ul class="amc-selected-choices" aria-labelledby="amc-1-selected-label">
+                          <li data-value="USRS" role="option" id="amc-1-c0"><span>(USRS) IES National Office User attachment Site</span>
+                            <button type="button"><span aria-hidden="true"> × </span><span class="reader-only">Remove (USRS) IES National Office User attachment Site</span></button>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="amc-listbox" style="display: none;">
+                        <input type="text" role="combobox" aria-autocomplete="list" aria-multiselectable="true" aria-owns="amc-1-list" aria-activedescendant="" aria-label="Select Site, start typing then use tab key so access values" class="form-control">
+                        <div class="amc-list-substitute" aria-hidden="true" style="display: none;">Loading...</div>
+                        <div class="amc-list-substitute" aria-hidden="true" style="display: none;">No matches</div>
+                        <div class="amc-list-substitute" aria-hidden="true" style="display: none;">Error</div>
+                        <ul class="amc-all-choices" id="amc-1-list" style="display: none;">
+                        </ul>
+                        <div tabindex="0" class="reader-only"></div>
+                      </div>
+                      <div class="reader-only" aria-live="assertive" aria-relevant="additions"><span></span></div>
+                    </div>
+                  </div>
+                  <!--column size div tag for property--> 
+                </div>
+                <div class="panel-footer">
+                  <div class="txtR noPad nestedButtons">
+                    <button class="btn-inverse btn" name="submitType" type="submit" value="Reset to Primary">Reset to Primary</button>
+                    <button class="btn-inverse btn" name="submitType" type="submit" value="Submit">Submit</button>
+                  </div>
+                </div>
+                <!--panel-footer --> 
+              </div>
+              <!--Closing DIV for Visible/Hidden for group fieldset--> 
+            </div>
+            <!--Row Div-->
+            <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-ReadOnlyOrg" style="margin-left: 0px; margin-right: 0px; width: calc(100% - 0px);">
+              <div id="InnerContainerFor-ReadOnlyOrg">
+                <input data-val="true" data-val-required="The ReadOnlyOrg field is required." id="ReadOnlyOrg" name="ReadOnlyOrg" type="hidden" value="False">
+              </div>
+            </div>
+            <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-UrlTemplate" style="margin-left: 0px; margin-right: 0px; width: calc(100% - 0px);">
+              <div id="InnerContainerFor-UrlTemplate">
+                <input id="UrlTemplate" name="UrlTemplate" type="hidden" value="/DEV/ESSWEB/EPS5/ZEUS_ORG/ZEUS_SITE/Calendar/Calendar">
+              </div>
+            </div>
+            <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-RealOrg" style="margin-left: 0px; margin-right: 0px; width: calc(100% - 0px);">
+              <div id="InnerContainerFor-RealOrg">
+                <input id="RealOrg" name="RealOrg" type="hidden" value="DEPT">
+              </div>
+            </div>
+            <div class=" hidden col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-RealSite" style="margin-left: 0px; margin-right: 0px; width: calc(100% - 0px);">
+              <div id="InnerContainerFor-RealSite">
+                <input id="RealSite" name="RealSite" type="hidden" value="USRS">
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="environment">DEV</span>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Help?Page=essweb/default.aspx" target="_blank" title="Help (Opens in a new window)" class="dropdown-link"><span class="readers">Ess Web Help (Opens in a new window)</span> <i aria-hidden="true" class="fa fa-lg fa-question"></i></a></li>
+          <li class="dropdown"><a class="dropdown-toggle  f-s-14" href="javascript:;" data-toggle="dropdown" title="Additional Resources"><span class="readers">Additional Resources (Opens a list below)</span><i aria-hidden="true" class="fa fa-list"></i></a>
+            <ul class="dropdown-menu media-list pull-right animated fadeInDown notification  ">
+              <li class="dropdown-header">
+                <h5>Additional Resources</h5>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Accessibility">Accessibility</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Privacy">Privacy</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Support">ESS Web System Support</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsnaccess.gov.au/sites/securesiteportal/" target="_blank" title="Provider Portal (opens in a new window)">Provider Portal<span class="readers"> (opens in a new window)</span></a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="http://provider360.edc.hosts.devnetwork/" target="_blank" title="CM Dashboard (opens in a new window)">CM Dashboard<span class="readers"> (opens in a new window)</span></a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsnaccess.gov.au/sites/learningcentre/EmploymentServices/Pages/home.aspx" target="_blank" title="Learning Centre (opens in a new window)">Learning Centre</a></div>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="https://sts.dev.construction.enet/adfs/ls?wa=wsignin1.0&amp;wtrealm=urn%3amvc%3akb%3adev&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252f&amp;whr=http%3a%2f%2fsts.application.enet%2fadfs%2fservices%2ftrust" target="_blank" title="Knowledge Base (Opens in a new window)" class="dropdown-link"><span class="readers">Knowledge Base (Opens in a new window)</span> <i aria-hidden="true" class="fa fa-lg fa-lightbulb-o"></i></a></li>
+          <li class="dropdown"><a class="dropdown-toggle  f-s-14" href="javascript:;" data-toggle="dropdown" title="Bulletins"><span class="readers">Bulletins (Opens a list below)</span><i aria-hidden="true" class="fa fa-bullhorn"></i><span class="label">0</span></a>
+            <ul class="dropdown-menu media-list pull-right animated fadeInDown notification bulletins scrollable ">
+              <li class="dropdown-header">
+                <h5>Bulletins (0)</h5>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Bulletins/6879">2/08/2016 asdf</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Bulletins/6877">29/07/2016 New SMS Functionality, improvements to Monthly AAR hours and Compliance IT Issue and Fix</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Bulletins/6875">29/07/2016 Provider Dashboard – New “Utilisation of Places” widget available </a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Bulletins/6864">25/07/2016 July 27th Fix Release – 27th July 2016 8.00 pm AEDT</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Bulletins/6863">21/07/2016 Provider Dashboard - New “AAR Job seeker starting WfD Phase within 60 days” widget available</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Bulletins/6853">18/07/2016 myGov reaches 300,000 linked accounts!</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Bulletins/6852">13/07/2016 July 13th Fix Release – 13th July 2016 8.00 pm AEDT </a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Bulletins/6847">7/07/2016 Let’s Talk Employment – Help your job seeker’s link their jobactive account with myGov</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Bulletins/6845">6/07/2016 IT Security - Pathway to Accreditation Programme Update Webinar</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Bulletins/6844">6/07/2016 Employment Fund, Relocation Assistance and Wage Subsidies Rolling Random Sample webinar</a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Bulletins">View All Bulletins</a></div>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle  f-s-14" href="javascript:;" data-toggle="dropdown" title="Noticeboard"><span class="readers">Noticeboard (Opens a list below)</span><i aria-hidden="true" class="fa fa-bell"></i><span class="label">0</span></a>
+            <ul class="dropdown-menu media-list pull-right animated fadeInDown notification  scrollable ">
+              <li class="dropdown-header">
+                <h5>Noticeboard (0)</h5>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Dashboard/Noticeboard?level1Code=A">Appointments <span class="label label-success">0</span></a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Dashboard/Noticeboard?level1Code=B">Compliance <span class="label label-success">0</span></a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Dashboard/Noticeboard?level1Code=C">Activity management and placements <span class="label label-success">0</span></a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Dashboard/Noticeboard?level1Code=D">Plans and agreements <span class="label label-success">0</span></a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Dashboard/Noticeboard?level1Code=E">Job seeker status information <span class="label label-success">0</span></a></div>
+              </li>
+              <li class="media">
+                <div class="media-body"><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Dashboard/Noticeboard?level1Code=F">Servicing information <span class="label label-success">0</span></a></div>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle  f-s-14" href="javascript:;" data-toggle="dropdown" title="Invitations"><span class="readers">Invitations (Opens a list below)</span><i aria-hidden="true" class="fa fa-inbox"></i><span class="label">0</span></a>
+            <ul class="dropdown-menu media-list pull-right animated fadeInDown notification  scrollable ">
+              <li class="dropdown-header">
+                <h5>Invitations (0)</h5>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle f-s-14" href="javascript:;" data-toggle="settings-dropdown" title="Settings"><span class="readers">Settings (Opens a list below)</span><i aria-hidden="true" class="fa fa-cogs"></i></a>
+            <div class="hidden settings dropdown-menu"><span class="dropdown-header">
+              <h5>Settings</h5>
+              </span>
+              <form method="post" autocomplete="off" action="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Default/NotificationSettings" novalidate>
+                <div class="row">
+                  <div class="col-xs-12 col-lg-12 col-xl-12 islogical islogical" style="margin-left: 0px; margin-right: 0px; width: calc(100% - 0px);">
+                    <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-FixedHeader" style="margin-left: 0px; margin-right: 0px; width: calc(100% - 0px);">
+                      <label class="control-label " for="FixedHeader">Fixed Height?<span class="readers">value is On, uncheck to select Off</span></label>
+                      <a role="presentation" class="errorTip" href="javascript:;" data-zet="FixedHeader" style="display:none"><span class="field-validation-valid" data-valmsg-for="FixedHeader" data-valmsg-replace="true"></span></a> <a role="presentation" class="hintTip" href="javascript:;"><span>Help tip: Fixed Height? <br>
+                      Whether to enable fixed height panels</span></a>
+                      <div id="InnerContainerFor-FixedHeader">
+                        <input checked="checked" data-bg="bg-green" data-zdn="Fixed Height?" data-zrot="disabled" data-zs="true" data-zsc="On" data-zsu="Off" id="FixedHeader" name="FixedHeader" type="checkbox" value="true" class="readers">
+                        <div class="switcher" aria-hidden="true"><span class="left bg-green">On</span><span class="right bg-green covered">Off</span><span class="centre" style="left: 55px;"></span></div>
+                        <input name="FixedHeader" type="hidden" value="false">
+                      </div>
+                      <!--column size div tag for property--> 
+                    </div>
+                    <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-ResponsiveTable" style="margin-left: 0px; margin-right: 0px; width: calc(100% - 0px);">
+                      <label class="control-label " for="ResponsiveTable">Responsive Table?<span class="readers">value is On, uncheck to select Off</span></label>
+                      <a role="presentation" class="errorTip" href="javascript:;" data-zet="ResponsiveTable" style="display:none"><span class="field-validation-valid" data-valmsg-for="ResponsiveTable" data-valmsg-replace="true"></span></a> <a role="presentation" class="hintTip" href="javascript:;"><span>Help tip: Responsive Table? <br>
+                      Whether to enable table responsiveness</span></a>
+                      <div id="InnerContainerFor-ResponsiveTable">
+                        <input checked="checked" data-bg="bg-green" data-zdn="Responsive Table?" data-zrot="disabled" data-zs="true" data-zsc="On" data-zsu="Off" id="ResponsiveTable" name="ResponsiveTable" type="checkbox" value="true" class="readers">
+                        <div class="switcher" aria-hidden="true"><span class="left bg-green">On</span><span class="right bg-green covered">Off</span><span class="centre" style="left: 55px;"></span></div>
+                        <input name="ResponsiveTable" type="hidden" value="false">
+                      </div>
+                      <!--column size div tag for property--> 
+                    </div>
+                    <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" id="ContainerFor-ColourScheme" style="margin-left: 0px; margin-right: 0px; width: calc(100% - 0px);">
+                      <fieldset class="fieldset-group">
+                        <legend>
+                        <label class="control-label " for="ColourScheme">Colour scheme</label>
+                        <a role="presentation" class="errorTip" href="javascript:;" data-zet="ColourScheme" style="display:none"><span class="field-validation-valid" data-valmsg-for="ColourScheme" data-valmsg-replace="true"></span></a> </legend>
+                        <div id="InnerContainerFor-ColourScheme">
+                          <input checked="checked" data-zdn="Colour scheme" data-zrbg="True" data-zrot="disabled" id="ColourScheme" name="ColourScheme" type="radio" value="Default">
+                          <label for="ColourScheme">Default</label>
+                          <input data-zdn="Colour scheme" data-zrbg="True" data-zrot="disabled" id="ColourScheme-1" name="ColourScheme" type="radio" value="Dark">
+                          <label for="ColourScheme-1">Dark</label>
+                          <input data-zdn="Colour scheme" data-zrbg="True" data-zrot="disabled" id="ColourScheme-2" name="ColourScheme" type="radio" value="Black">
+                          <label for="ColourScheme-2">Black</label>
+                          <input data-zdn="Colour scheme" data-zrbg="True" data-zrot="disabled" id="ColourScheme-3" name="ColourScheme" type="radio" value="White">
+                          <label for="ColourScheme-3">White</label>
+                        </div>
+                        <!--column size div tag for property-->
+                      </fieldset>
+                    </div>
+                    <div class="panel-footer">
+                      <div class="txtR noPad nestedButtons">
+                        <button class="btn-inverse btn" name="submitType" type="submit" value="reset">Restore to default</button>
+                        <button class="btn-inverse btn" name="submitType" type="submit" value="apply">Apply</button>
+                      </div>
+                    </div>
+                    <!--panel-footer --> 
+                  </div>
+                  <!--Closing DIV for Visible/Hidden for group fieldset--> 
+                </div>
+                <!--Row Div-->
+                <input type="hidden" data-value="{&quot;FixedHeader&quot;:true,&quot;ResponsiveTable&quot;:true,&quot;ColourScheme&quot;:0}" data-settings="true">
+              </form>
+            </div>
+          </li>
+          <li class="dropdown navbar-user"> <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> <span class="hidden-xs">Rory McPherson (RM3333_d)</span> <b aria-hidden="true" class="caret"></b> </a>
+            <ul class="dropdown-menu animated fadeInLeft">
+              <li class="arrow"></li>
+              <li><span class="navbar-text">Base Role: <span>DAD</span></span></li>
+              <li><span class="navbar-text">System Date: <span id="system_date">06/12/2016</span></span></li>
+              <span class="navbar-text">Last Logged On: <span> 6/12/2016 9:05:55 AM</span></span>
+              <li class="divider"></li>
+              <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/Default/Logout">Log Out</a></li>
+            </ul>
+          </li>
+          <li class="hidden-xs right-sidebar-toggler"> <a href="javascript:;" data-click="right-sidebar-toggled" class="f-s-14"> <span class="readers">Open right sidebar.</span> <i aria-hidden="true" class="fa fa-th"></i> </a> </li>
+        </ul>
+        <button type="button" class="navbar-toggle" data-click="sidebar-toggled"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- begin #sidebar -->
+  <div id="sidebar" class="sidebar" role="navigation" style="display: inline;"> 
+    <!--anchor for readers--> 
+    <a id="pagenav"></a> 
+    <!-- contract picker display/launch --> 
+    
+    <a class="contract-picker-launch bg-green fg-white" href="javascript:;" title="jobactive" data-zcty="EPS5"><i class="fa fa-2x contract-picker-launch-icon fa-user"></i> <span><span class="readers">Current contract</span><span>jobactive</span><b class="caret"></b><span class="readers">(Opens a list below)</span></span> </a> 
+    <!-- contract picker. Up here to avoid getting trapped by the slimscroll.-->
+    <ul class="dropdown-menu contract-picker-list media-list pull-left animated fadeInDown notification scrollable">
+      <li> <a class="contract-picker" href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/DESA/DEPT/USRS/Calendar/Calendar">
+        <div class="bg-blue widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-universal-access"></i></div>
+          <div class="stats-number">DES - Disability Management Service</div>
+        </div>
+        </a> </li>
+      <li> <a class="contract-picker" href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/DESB/DEPT/USRS/Calendar/Calendar">
+        <div class="bg-aqua widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-male-female"></i></div>
+          <div class="stats-number">DES - Employment Support Service</div>
+        </div>
+        </a> </li>
+      <li> <a class="contract-picker" href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/CWCA/DEPT/USRS/Calendar/Calendar">
+        <div class="bg-darkpurple widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-puzzle"></i></div>
+          <div class="stats-number">ESAt/ JCA</div>
+        </div>
+        </a> </li>
+      <li> <a class="contract-picker" href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/SPP5/DEPT/USRS/Calendar/Calendar">
+        <div class="bg-violet widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fa fa-child"></i></div>
+          <div class="stats-number">ParentsNext</div>
+        </div>
+        </a> </li>
+      <li> <a class="contract-picker" href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/TTW5/DEPT/USRS/Calendar/Calendar">
+        <div class="bg-magenta widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-shuffle"></i></div>
+          <div class="stats-number">Transition to Work</div>
+        </div>
+        </a> </li>
+    </ul>
+    <!--END contract picker -->
+    <div style="height: calc(100% - 54px);"> 
+      <!-- Menu filtering tools -->
+      <div class="menu-filter bg-green fg-white">
+        <div class="menu-filter-choices" data-background-class="bg-green-darker"> <a class="contract-menu-filter" title="Filter by current contract" href="javascript:;"><i class="fa fa-file-text" aria-hidden="true"></i><span class="readers">Filter menu items by current contract, not selected</span></a> <a class="expand-collapse-menu-filter" title="Expand/collapse all" href="javascript:;"><i class=" fa fa-angle-double-down" aria-hidden="true"></i><span class="readers">Expand all menu items</span></a> <a class="search-menu-filter" title="Filter menu items (Alt+S)" href="javascript:;"><i class=" fa fa-search" aria-hidden="true"></i><span class="readers">Filter menu items by search, not selected</span></a> </div>
+        <div class="search-menu-filter" style="display: none;">
+          <input class="form-control" id="search-menu-filter" name="search-menu-filter" title="Search menu items">
+        </div>
+      </div>
+      <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 100%;">
+        <div data-scrollbar="true" data-height="100%" style="overflow: hidden; width: auto; height: 100%;"> 
+          <!-- Navigation Menu -->
+          <ul class="nav">
+            <li class="has-sub "><a href="javascript:;" title="Dashboard"><b class="caret pull-right"></b><span>Dashboard</span> <span class="readers">(Opens a list below)</span><i class="fa fa-area-chart"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Dashboard</li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Dashboard/JobSeekerSummary/Details"><span>Case Summary</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Dashboard/CaseSummaryTimeline/Index"><span>Case Summary Timeline</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Dashboard/DashboardMain"><span>Dashboard</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Dashboard/EmploymentRegionDashboardMain"><span>Employment Region Summary</span></a></li>
+              </ul>
+            </li>
+            <li class="has-sub "><a href="javascript:;" title="Caseload"><b class="caret pull-right"></b><span>Caseload</span> <span class="readers">(Opens a list below)</span><i class="fa fa-briefcase"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Caseload</li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Caseload"><span>Caseload</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Caseload/SpecialClient/LoadSpecialClient"><span>Special Client Search</span></a></li>
+              </ul>
+            </li>
+            <li class="has-sub active "><a href="javascript:;" title="Calendar"><b class="caret pull-right"></b><span>Calendar</span> <span class="readers">(Closes a list below)</span><i class="fa fa-calendar"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Calendar</li>
+                <li class="active "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Calendar"><span>Calendar</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Calendar/Search"><span>Diary Search</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Appointment/Create"><span>Create Appointment</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Timeslot/Create"><span>Create Timeslot</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Event/Create"><span>Create Provider Event</span></a></li>
+                <li class="has-sub "><a href="javascript:;" title="Job Seeker Diary"><b class="caret pull-right"></b><span>Job Seeker Diary</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Job Seeker Diary</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Calendar/JobseekerDiary"><span>Job Seeker Diary</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Calendar/CreateSchedule"><span>Create Schedule</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Calendar/JobseekerDiaryAdmin"><span>Job Seeker Administration</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Diary Administration"><b class="caret pull-right"></b><span>Diary Administration</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Diary Administration</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Address"><span>Diary Addresses</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Phone"><span>Diary Contact Phones</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Administration/Details"><span>Diary Appointment Durations</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Calendar/UserSettings"><span>Diary User Settings</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="has-sub "><a href="javascript:;" title="Job Seeker"><b class="caret pull-right"></b><span>Job Seeker</span> <span class="readers">(Opens a list below)</span><i class="fa fa-user"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Job Seeker</li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Search"><span>Job Seeker Search</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/FuzzySearch"><span>Fuzzy Search</span></a></li>
+                <li class="has-sub "><a href="javascript:;" title="Notifications"><b class="caret pull-right"></b><span>Notifications</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Notifications</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Notification/ListNotifications"><span>Notification List</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Notification/NotificationTemplates"><span>Notification Templates</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Notification/ThirdPartyAppointmentNotification"><span>Create Third Party Appointment Notification</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Notification/BulkNotificationHistory"><span>Bulk Notification History</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Notification/NotificationMaintenance"><span>Notification Maintenance</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub not-cc-valid "><a href="javascript:;" title="Ongoing Support"><b class="caret pull-right"></b><span>Ongoing Support</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Ongoing Support</li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/OngoingSupport" data-zcfcm="DESA,DESB"><span>Ongoing Support Management</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Osa/AllocationOverride" data-zcfcm="DESA,DESB,NPA"><span>Allocation Override</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Osa/Allocation" data-zcfcm="DESA,DESB,NPA"><span>Allocations</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Osa/Search" data-zcfcm="DESA,DESB,NPA"><span>Assessment Search</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Osa" data-zcfcm="DESA,DESB,NPA"><span>Assessment</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Osa/OsaHistory" data-zcfcm="DESA,DESB,NPA"><span>Participant Assessment History</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Osa/ProviderPreference" data-zcfcm="DESA,DESB,NPA"><span>NPA Provider Preference</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub not-cc-valid "><a href="javascript:;" title="Disability Employment Services"><b class="caret pull-right"></b><span>Disability Employment Services</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Disability Employment Services</li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/DesProgram/FundingLevel" data-zcfcm="DESA,DESB"><span>DES Funding Level</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/DesProgram/ProgramReview" data-zcfcm="DESA,DESB"><span>DES Program Review</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/DesProgram" data-zcfcm="DESA,DESB"><span>DES Program Summary</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Compliance"><b class="caret pull-right"></b><span>Compliance</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Compliance</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Compliance"><span>Search Compliance</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Compliance/ComplianceHistory"><span>Compliance History</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Compliance/ProviderReEngagement"><span>Provider Re-engagement</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Career Profile"><b class="caret pull-right"></b><span>Career Profile</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Career Profile</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/CareerProfile/InstantJobList"><span>Instant Job List</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/CareerProfile/JobMatching"><span>Job Matching</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/CareerProfile/CareerProfile"><span>Career Profile and Resume</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/CareerProfile/PictureAdmin"><span>Picture Admin</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Comments"><span>Comments</span></a></li>
+                <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/DesParticipationManagement/AnchorHistory" data-zcfcm="DESA,DESB"><span>DES Anchor History</span></a></li>
+                <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/DesParticipationManagement/PhaseManagement" data-zcfcm="DESA,DESB"><span>DES Participation Management</span></a></li>
+                <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/DesPerformanceMeasures" data-zcfcm="DESA,DESB"><span>DES Performance Measures</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/DuplicateJobSeeker"><span>Duplicate JobSeeker</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Eligibility"><span>Eligibility</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Assessment/AssessmentDetails"><span>ESAt/JCA Assessment</span></a></li>
+                <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/HLS5/DEPT/USRS/JobSeeker/HLSBulkRegistration"><span>HLS Bulk Registration</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/IncidentReport"><span>Incident Report</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/IMT"><span>Intervention Management Tool</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/JobPlan"><span>Job Plan</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/JobSearch/JobSearch"><span>Job Search Reporting</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/JsciDetails"><span>JSCI</span></a></li>
+                <li class="has-sub "><a href="javascript:;" title="Non Beneficiary Income Test"><b class="caret pull-right"></b><span>Non Beneficiary Income Test</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Non Beneficiary Income Test</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/NonBeneficiaryIncomeTest"><span>Income Test</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/NonBeneficiaryIncomeTest/IncomeTestThreshold"><span>Income Test Thresholds</span></a></li>
+                  </ul>
+                </li>
+                <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/SPP5/DEPT/USRS/JobSeeker/ParentsNext"><span>ParentsNext Registration History</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Participation/ParticipationEvent"><span>Participation Events</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/ParticipationProfile"><span>Participation Profile</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/ReferralPhaseManagement/ReferralPhaseManagement"><span>Phase Management</span></a></li>
+                <li class="has-sub not-cc-valid "><a href="javascript:;" title="Provider Exemptions"><b class="caret pull-right"></b><span>Provider Exemptions</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Provider Exemptions</li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/SPP5/DEPT/USRS/JobSeeker/Exemption"><span>Exemption History</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Referral/Referral"><span>Referral</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/ReferralHistory/List"><span>Referral History</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Referral/AdminFind"><span>Referral Support (admin only)</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/ReRegistration"><span>Registration</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Suspension/Suspensions"><span>Suspensions and Volunteer Periods</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Transfer/Transfer"><span>Transfer</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/TransferByAgreement"><span>Transfer by Agreement</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Vulnerability"><span>Vulnerability</span></a></li>
+              </ul>
+            </li>
+            <li class="has-sub "><a href="javascript:;" title="Activities"><b class="caret pull-right"></b><span>Activities</span> <span class="readers">(Opens a list below)</span><i class="fa fa-tasks"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Activities</li>
+                <li class="has-sub "><a href="javascript:;" title="Activity"><b class="caret pull-right"></b><span>Activity</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Activity</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Activity/Activity/Search"><span>Activity Search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Activity/Activity/Details"><span>Activity Details</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Activity/Activity/Create"><span>Add Activity</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Activity/ContactList/Search"><span>Activity Contact List</span></a></li>
+                <li class="has-sub "><a href="javascript:;" title="Activity Host"><b class="caret pull-right"></b><span>Activity Host</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Activity Host</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Activity/ActivityHost/Search"><span>Activity Host Search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Activity/ActivityHost/Create"><span>Add Activity Host</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Placement"><b class="caret pull-right"></b><span>Placement</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Placement</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Activity/ActivityPlacement/Search"><span>Activity Placement Search</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Activity Diary"><b class="caret pull-right"></b><span>Activity Diary</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Activity Diary</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Activity/Diary/Search"><span>Activity Diary</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Activity/Diary/BulkAttendance"><span>Bulk Attendance</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Activity/Activity/AARDetails"><span>AAR Details</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Activity/Activity/AAR"><span>AAR Calculator</span></a></li>
+              </ul>
+            </li>
+            <li class="has-sub "><a href="javascript:;" title="Employer and Vacancies"><b class="caret pull-right"></b><span>Employer and Vacancies</span> <span class="readers">(Opens a list below)</span><i class="fa fa-newspaper-o"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Employer and Vacancies</li>
+                <li class="has-sub "><a href="javascript:;" title="Employer"><b class="caret pull-right"></b><span>Employer</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Employer</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Employer/Search"><span>Employer Search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Employer/CreateEmployer"><span>Employer Create</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Employer/Employer/Workflow"><span>Employer Details</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Vacancy"><b class="caret pull-right"></b><span>Vacancy</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Vacancy</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Vacancy/Search"><span>Vacancy Search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Vacancy/Details"><span>Vacancy Details</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Job Placement"><b class="caret pull-right"></b><span>Job Placement</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Job Placement</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Vacancy/Placement/Search"><span>Job Placement Search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Vacancy/VacancyReferral/Details"><span>Job Placement Details</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Agreements"><b class="caret pull-right"></b><span>Agreements</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Agreements</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Vacancy/Agreement/Search"><span>Agreement Search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Vacancy/BulkLodgement/Search"><span>Available Payments</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Vacancy/Agreement/Master"><span>Head Agreement Search</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Public Employer"><b class="caret pull-right"></b><span>Public Employer</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Public Employer</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Employer/PublicEmployer/Search"><span>Public Employer Search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Employer/PublicEmployer/Workflow"><span>Public Employer Details</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Employer/PublicEmployer/Logos"><span>Public Employer Logos</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Vacancy/FindCandidates"><span>Find Candidates</span></a></li>
+                <li class="has-sub "><a href="javascript:;" title="Employer Invitations"><b class="caret pull-right"></b><span>Employer Invitations</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Employer Invitations</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Employer/EmployerInvitations/InvitationsSearch"><span>Invitations Search</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="has-sub "><a href="javascript:;" title="Payments"><b class="caret pull-right"></b><span>Payments</span> <span class="readers">(Opens a list below)</span><i class="fa fa-dollar"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Payments</li>
+                <li class="has-sub "><a href="javascript:;" title="Claimed Payments"><b class="caret pull-right"></b><span>Claimed Payments</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Claimed Payments</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/Claimed/Search"><span>Payment Search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/Claimed/DepartmentalSearch"><span>Departmental Payment Search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/General/Details"><span>Payment Details</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/Claimed/Offsets"><span>Acquittals</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/Available/PaymentHistory"><span>Job Seeker Payment History</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Available Payments"><b class="caret pull-right"></b><span>Available Payments</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Available Payments</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/Claimed/SitePayments"><span>Site Payments</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/Available/ActivityPayments" data-zcfcm="DESA,DESB"><span>Job Seeker Payments</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/Available/OutcomeTracker"><span>jobactive Outcome Tracker</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/TTW5/DEPT/USRS/Payment/Available/OutcomeTtwTracker"><span>TTW Outcome Tracker</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/Available/ListSnapshots"><span>Outcome Snapshot List</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/Available/ListOutcomes"><span>Outcome List</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/Available/OutcomeArchiveList"><span>Archived Outcome Search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/Available/EafPayments"><span>Assessments and EAF Payments</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/Available/RateDetails"><span>Rate Details</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/General/GeneralPayments"><span>General Payments</span></a></li>
+                <li class="has-sub not-cc-valid "><a href="javascript:;" title="Rate Reductions and Earnings"><b class="caret pull-right"></b><span>Rate Reductions and Earnings</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Rate Reductions and Earnings</li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/RateReduction/Search" data-zcfcm="DESA,DESB"><span>Reduction Search</span></a></li>
+                  </ul>
+                </li>
+                <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/TTW5/DEPT/USRS/Payment/Benchmark/Search"><span>TTW Benchmark Search</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/WfdActivityPayment/WfdActivityPayments"><span>Work for the Dole Activity Payments</span></a></li>
+                <li class="has-sub "><a href="javascript:;" title="Overrides &amp; Special Claims"><b class="caret pull-right"></b><span>Overrides &amp; Special Claims</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Overrides &amp; Special Claims</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/Overrides/Search"><span>Override Search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/Overrides/Details"><span>Override Summary</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Payment/Overrides/Create"><span>Add Overrides</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="has-sub "><a href="javascript:;" title="Employment Fund"><b class="caret pull-right"></b><span>Employment Fund</span> <span class="readers">(Opens a list below)</span><i class="fa fa-bank (alias)"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Employment Fund</li>
+                <li class="has-sub "><a href="javascript:;" title="Commitment Upload"><b class="caret pull-right"></b><span>Commitment Upload</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Commitment Upload</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Fund/CommitmentUpload/FileUpload"><span>Commitment Upload Facility</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Fund/CommitmentUpload/ReferenceData"><span>Reference Data</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Search"><b class="caret pull-right"></b><span>Search</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Search</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Fund/FundsSearch/CommitmentSearch"><span>Commitment</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Fund/FundsSearch/JobseekerHistorySearch"><span>Job Seeker History</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Fund/FundsSearch/RequestHistory"><span>Request History</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Commitment"><b class="caret pull-right"></b><span>Commitment</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Commitment</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Fund/Commitment/Details"><span>Details</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Administration"><b class="caret pull-right"></b><span>Administration</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Administration</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Fund/Adjustment/AdjustmentDetails"><span>Create Adjustment</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Fund/Transfer/TransferDetails"><span>Create Transfer</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Fund/Credit/CreditDetails"><span>Maintain Credits</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Fund/Qualification/QualificationDetails"><span>Maintain Qualified Staff</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Fund/Suppliers/Details"><span>Maintain Suppliers</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Fund/Suspensions/Details"><span>Maintain Suspensions</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Fund/PartialRecovery/Details"><span>Partial Recovery</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="has-sub "><a href="javascript:;" title="Document Upload"><b class="caret pull-right"></b><span>Document Upload</span> <span class="readers">(Opens a list below)</span><i class="fa fa-upload"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Document Upload</li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Document/DocumentAdmin"><span>Admin</span></a></li>
+                <li class="has-sub "><a href="javascript:;" title="Document evidence example"><b class="caret pull-right"></b><span>Document evidence example</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Document evidence example</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Document/ComponentTest/DocumentExample"><span>Document evidence Component</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Document/Search/Documents"><span>Document Search</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Document/Search/Transactions"><span>Search and Upload</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Document/StandaloneDocuments/Search"><span>Standalone Documents</span></a></li>
+              </ul>
+            </li>
+            <li class="has-sub "><a href="javascript:;" title="NEIS"><b class="caret pull-right"></b><span>NEIS</span> <span class="readers">(Opens a list below)</span><i class="fa fa-lightbulb-o"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">NEIS</li>
+                <li class="has-sub not-cc-valid "><a href="javascript:;" title="Participant"><b class="caret pull-right"></b><span>Participant</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Participant</li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/NEI5/DEPT/USRS/NEIS/Participant/Details/0/0/0"><span>Details</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/NEI5/DEPT/USRS/NEIS/Participant/AgreementDetails/0/0/0"><span>Agreement</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/NEI5/DEPT/USRS/NEIS/Participant/SuspentionDetails/0/0/0"><span>Suspension</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/NEI5/DEPT/USRS/NEIS/Participant/TransferDetails/0/0/0"><span>Transfer</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub not-cc-valid "><a href="javascript:;" title="Business"><b class="caret pull-right"></b><span>Business</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Business</li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/NEI5/DEPT/USRS/NEIS/Business/BusinessSearch"><span>Business Search</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/NEI5/DEPT/USRS/NEIS/Business/EditBusiness"><span>Business Details</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub not-cc-valid "><a href="javascript:;" title="Mentoring"><b class="caret pull-right"></b><span>Mentoring</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Mentoring</li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/NEI5/DEPT/USRS/NEIS/MonthlyContact/InitialVisit/0/0/0"><span>Initial Visit</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/NEI5/DEPT/USRS/NEIS/MonthlyContact/Detail/0/0/0"><span>Monthly Contact</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/NEI5/DEPT/USRS/NEIS/MonthlyContact/QuarterlyVisits/0/0/0"><span>Quarterly Review</span></a></li>
+                  </ul>
+                </li>
+                <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/NEI5/DEPT/USRS/NEIS/Tools/0/0/0"><span>Tools</span></a></li>
+              </ul>
+            </li>
+            <li class="has-sub "><a href="javascript:;" title="Providers and Contracts"><b class="caret pull-right"></b><span>Providers and Contracts</span> <span class="readers">(Opens a list below)</span><i class="fa fa-file-text-o"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Providers and Contracts</li>
+                <li class="has-sub "><a href="javascript:;" title="Contracts and Sites"><b class="caret pull-right"></b><span>Contracts and Sites</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Contracts and Sites</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Contract/Contract/ContractSearch"><span>Contract and Outlet Search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Contract/Contract/PlacesSearch"><span>Places Search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Contract/Contract/ViewSite"><span>Site Search and Details</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Connections for Quality"><b class="caret pull-right"></b><span>Connections for Quality</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Connections for Quality</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Provider/Comments"><span>Comments</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Provider/QualityIndicators"><span>Service Quality Indicators</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Provider/ServiceDeliveryPlans"><span>Service Delivery Plans</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub not-cc-valid "><a href="javascript:;" title="Survey"><b class="caret pull-right"></b><span>Survey</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Survey</li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/DESB/DEPT/USRS/Provider/ProviderSurvey/Search"><span>Search</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="has-sub "><a href="javascript:;" title="Tools"><b class="caret pull-right"></b><span>Tools</span> <span class="readers">(Opens a list below)</span><i class="fa fa-wrench"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Tools</li>
+                <li class="has-sub "><a href="javascript:;" title="ADW Lookups"><b class="caret pull-right"></b><span>ADW Lookups</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">ADW Lookups</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/AdwLookup/ListCodeType"><span>ListCodeType</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/AdwLookup/ListCode"><span>ListCode</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/AdwLookup/ListRelatedCodeType"><span>ListRelatedCodeType</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/AdwLookup/ListRelatedCode"><span>ListRelatedCode</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/AdwLookup/ListPropertyType"><span>ListPropertyType</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/AdwLookup/ListProperty"><span>ListProperty</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/AdwLookup/ListDeltas"><span>ListDeltas</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Job Seeker Bulk Transfer"><b class="caret pull-right"></b><span>Job Seeker Bulk Transfer</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Job Seeker Bulk Transfer</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/Novation/Search"><span>Job Seeker Bulk Transfer Search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/Novation/Detail"><span>Job Seeker Bulk Transfer Details</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/JcaAssessor"><span>ESAt/JCA Assessor Credentials</span></a></li>
+                <li class="has-sub "><a href="javascript:;" title="Pro-Rata and Auto Recovery"><b class="caret pull-right"></b><span>Pro-Rata and Auto Recovery</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Pro-Rata and Auto Recovery</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/ProRata/Search"><span>Pro-Rata and Auto Recovery Search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/ProRata/Detail"><span>Pro-Rata and Auto Recovery Details</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Learning Centre"><b class="caret pull-right"></b><span>Learning Centre</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Learning Centre</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/LearningCentre/Search"><span>Search</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/Default/BuildInfo"><span>Build Info</span></a></li>
+                <li class="has-sub "><a href="javascript:;" title="Bulletins Admin"><b class="caret pull-right"></b><span>Bulletins Admin</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Bulletins Admin</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/BulletinAdmin/Home"><span> Home</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/BulletinAdmin/BulletinAdminPage"><span> Bulletins</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/BulletinAdmin/BulletinAdminPageAdd"><span> Add Bulletin</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/BulletinAdmin/BulletinAdminBlob"><span> Files</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/BulletinAdmin/BulletinAdminBlobUpload"><span>Add Files</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Dashboard Management"><b class="caret pull-right"></b><span>Dashboard Management</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Dashboard Management</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/DashboardManagement/ManagementOverview"><span>Manager Overview</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/DashboardManagement/WidgetUsage"><span>Widget Usage</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/Default/DateChanger"><span>Date Changer</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/Elmah"><span>Error Log</span></a></li>
+                <li class="has-sub "><a href="javascript:;" title="Harvest Trail Admin"><b class="caret pull-right"></b><span>Harvest Trail Admin</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Harvest Trail Admin</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/HarvestTrailAdmin/Home"><span> Home</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/HarvestTrailAdmin/Contacts"><span>Contacts</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/HarvestTrailAdmin/Crops"><span>Crops</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/HarvestTrailAdmin/Information"><span>Information</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/HarvestTrailAdmin/Newsflash"><span>Newsflash</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/HarvestTrailAdmin/Nhlis"><span>NHLIS</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/HarvestTrailAdmin/Towns"><span>Towns</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/HelpDeskOnline"><span>Helpdesk Online</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/Verification/ListForCENT"><span>MQ Dashboard</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/JobSeeker/Notification/NotificationAdmin"><span>Notification Template Clear Cache</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/ProviderAdmin"><span>Provider Admin</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools/Route"><span>Route Table</span></a></li>
+                <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Tools"><span>Show Security Claims</span></a></li>
+              </ul>
+            </li>
+            <li class="has-sub "><a href="javascript:;" title="Example"><b class="caret pull-right"></b><span>Example</span> <span class="readers">(Opens a list below)</span><i class="fa fa-birthday-cake"></i></a>
+              <ul class="sub-menu">
+                <li class="sidebar-subnav-header">Example</li>
+                <li class="has-sub "><a href="javascript:;" title="Basic form controls"><b class="caret pull-right"></b><span>Basic form controls</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Basic form controls</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/BasicFormElements/ExampleContent"><span>Basic HTML content</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/BasicFormElements/ExampleFlexRowContent"><span>Flex rows</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/BasicFormElements/TextBoxes"><span>Text boxes and hiddens</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/BasicFormElements/Booleans"><span>Booleans</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/BasicFormElements/DateTimes"><span>Date / Times</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/BasicFormElements/Phones"><span>Phone numbers</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/BasicFormElements/SingleSelects"><span>Single selects</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/BasicFormElements/MultiSelects"><span>Multi selects</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/BasicFormElements/ReadOnlyView"><span>Read only view</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/BasicFormElements/Links"><span>Links</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/BasicFormElements/SubmitButtons"><span>Submit buttons</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/BasicFormElements/SplitButtons"><span>Split buttons</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/BasicFormElements/UserDefault"><span>User default selection</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/BasicFormElements/CalculationAttributes"><span>Calculation attributes</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Validation"><b class="caret pull-right"></b><span>Validation</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Validation</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Validation/ValidationMessages"><span>Validation messages</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Validation/Restrictions"><span>Restriction attributes</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Server side controls"><b class="caret pull-right"></b><span>Server side controls</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Server side controls</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/ServerSideElements/AdwSelection"><span>Adw selection</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/ServerSideElements/HierarchicalAdwSelection"><span>Hierarchical ADW selection</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/ServerSideElements/AjaxSelection"><span>Ajax selection</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/ServerSideElements/AjaxField"><span>Ajax field</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/ServerSideElements/AjaxPanels"><span>Ajax panels</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/ServerSideElements/FileDownload"><span>File download</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/ServerSideElements/FileUpload"><span>File upload</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/ServerSideElements/AddressSelection"><span>Address autocomplete</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/ServerSideElements/JobSeekerSearch"><span>Jobseeker single-line search</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/ServerSideElements/Callback"><span>Callback</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Layout"><b class="caret pull-right"></b><span>Layout</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Layout</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Layout/SingleLineDisplay"><span>Sentence structure display</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Layout/Groups"><span>Groups</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Layout/Rows"><span>Rows</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Layout/FullHeightContent"><span>Full Height content (search pages)</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Layout/DynamicDisplay"><span>Dynamic display</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Layout/RoleDynamicDisplay"><span>Dynamic display with role checking</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Layout/FixedHeightGroups"><span>Fixed Height groups</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Power components"><b class="caret pull-right"></b><span>Power components</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Power components</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/CalendarIndex"><span>Calendar</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/GraphTypes"><span>Graphs</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/RefreshAndDrillDown"><span>Graph drill down</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/GraphMixedElementDrilldown"><span>Graph Mixed New Page Drilldown</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/FurtherDrillDown"><span>Further graph examples</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/Widgets"><span>Dashboard widgets</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/Dashboard"><span>Dashboard example</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/ResourceFinder"><span>Resource finder</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/RightSidebar"><span>Right sidebar</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/DateBasedContent"><span>Date based content</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/Timeline"><span>Timeline</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/SearchModal"><span>Search Modal</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/SavedSearches"><span>Saved searches</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/DocumentExample"><span>Document evidence</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/RichTextBox"><span>Rich Textbox</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/TreeviewIndex"><span>Treeview</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Contract context"><b class="caret pull-right"></b><span>Contract context</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Contract context</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Default/ContextAny"><span>Any context</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Default/ContextEPS5"><span>EPS5 context only</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/DESB/DEPT/USRS/Example/Default/ContextDESB"><span>DESB context only</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/HLS5/DEPT/USRS/Example/Default/ContextHLS5"><span>HLS5 context only</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Default/ContextDESBorHLS5" data-zcfcm="DESB,HLS5"><span>DESB or HLS5 context only</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Default/ContextDESBorEPS5"><span>DESB or EPS5 context only</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Default/ContextEPS5orHLS5"><span>EPS5 or HLS5 context only</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Default/ContextHaveAndDontHave"><span>EPS5 or DONTHAVE context only</span></a></li>
+                    <li class="not-cc-valid "><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Default/ContextHavesAndDontHave" data-zcfcm="DESB,HLS5"><span>DESB, HLS5 or DONTHAVE context only</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Data access/mapping"><b class="caret pull-right"></b><span>Data access/mapping</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Data access/mapping</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/DataAccess/SqlServer"><span>SQL Server Call</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/DataAccess/StaticMapping"><span>Static Mapping</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/DataAccess/WebApiCall"><span>Web Api</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Grids"><b class="caret pull-right"></b><span>Grids</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Grids</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Grid/Display"><span>Display only</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Grid/Single"><span>Single selection</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Grid/Multiple"><span>Multiple selection</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Grid/Combination"><span>Combination selection</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Grid/Button"><span>Inline links</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Grid/InlineEdit"><span>Editing (Inline)</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PagedGrid/ModalEdit"><span>Editing (Modal)</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Grid/ClientFiltering"><span>Grid Filtering - Client based</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PagedGrid/GridFilteringServerSide"><span>Grid Filtering - Server based</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PagedGrid/DummiesAll"><span>Paging (full set)</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PagedGrid/DummiesMainframe"><span>Paging (mainframe)</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PagedGrid/ColumnSelector"><span>Column Selector</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/OutcomeTracker/Index"><span>Outcome Tracker</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Messages"><b class="caret pull-right"></b><span>Messages</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Messages</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Messages/Alerts"><span>Alerts</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Messages/Confirmation"><span>Confirmation</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Messages/UserMessaging"><span>User messaging</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Post-Redirect-Get"><b class="caret pull-right"></b><span>Post-Redirect-Get</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Post-Redirect-Get</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PagedGrid/WithPRG"><span>Following pattern (route)</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PagedGrid/WithPRGandTempData"><span>Following pattern (TempData)</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PagedGrid/WithoutPRG"><span>Not following pattern</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Report"><b class="caret pull-right"></b><span>Report</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Report</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Report/ReportEmbedded"><span>Embedded Report</span></a></li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Report/ReportTypes"><span>Report Examples</span></a></li>
+                  </ul>
+                </li>
+                <li class="has-sub "><a href="javascript:;" title="Workflow"><b class="caret pull-right"></b><span>Workflow</span> <span class="readers">(Opens a list below)</span></a>
+                  <ul class="sub-menu">
+                    <li class="sidebar-subnav-header">Workflow</li>
+                    <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Example/Workflow/WorkflowGroupedStyle"><span>Grouped style</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Fake"><span>Fake</span></a></li>
+            <li><a href="javascript:;" tabindex="-1" class="sidebar-minify-btn" data-click="sidebar-minify"><i class="fa fa-angle-double-left"></i><span class="readers">Minimize menu</span></a></li>
+          </ul>
+        </div>
+        <div class="slimScrollBar ui-draggable" style="width: 7px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 810px; background: rgb(0, 0, 0);"></div>
+        <div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; opacity: 0.2; z-index: 90; right: 1px; background: rgb(51, 51, 51);"></div>
+      </div>
+      <!-- end sidebar scrollbar --> 
+    </div>
+  </div>
+  <!-- end #sidebar -->
+  <div class="sidebar-bg"></div>
+  <!-- begin #sidebar-right -->
+  <div id="sidebar-right" tabindex="-1" class="sidebar sidebar-right" role="complementary">
+    <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 100%;">
+      <div data-scrollbar="true" data-height="100%" style="overflow: hidden; width: auto; height: 100%;"> </div>
+      <div class="slimScrollBar ui-draggable" style="width: 7px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 925px; background: rgb(0, 0, 0);"></div>
+      <div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; opacity: 0.2; z-index: 90; right: 1px; background: rgb(51, 51, 51);"></div>
+    </div>
+  </div>
+  <!-- end #sidebar-right -->
+  
+  <div class="content" id="content" role="main">
+    <div class="jump-list pull-right dropdown"> <a title="(Alt+J)" class="dropdown-toggle btn select btn-gr-gray btn-sm" data-toggle="dropdown" href="https://ecsn.idc.hosts.devnetwork/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Calendar#">Jump to&nbsp; <span class="caret"></span></a>
+      <ul class="dropdown-menu text-right" role="menu">
+        <li><a href="javascript:;">IES National Office User attachment Site (USRS) Search</a></li>
+        <li><a href="javascript:;">Criteria</a></li>
+        <li><a href="javascript:;">Appointment Criteria</a></li>
+        <li><a href="javascript:;">Timeslot Criteria</a></li>
+        <li><a href="javascript:;">Provider Event Criteria</a></li>
+        <li><a href="javascript:;">IES National Office User attachment Site (USRS) Calendar: Appointments | Timeslots (Available) | Provider Events</a></li>
+      </ul>
+    </div>
+    <h1 class="page-header"> Calendar </h1>
+    <div class=" col-xl-12 col-lg-12 col-xs-12 iscontainer" data-zpnip="ExplicitlySetDate" data-zpt="qg/xGYcuC2URlbTV4qzQELFxzFaeS88MZ1eSaIiQ3ermAoIns62J23ERWKNoJBHIotU+dL5fWaTc/6YggtRXmdEGuorBhksut1AQPac9JdoLztGTBm27FT3/0uuM4QK65MWT3LwdNEtbwBlzSACTVXwW3TOL46Os0Oz2eIBzTKMhQCmKSLIxVBnpaWTtPCGMzhtcIEq+7kNpAgL0Bmvyq70rTJUXxF4dE8WYmf2rKSLkUSWP" id="ContainerFor-ExplicitlySetDate" style="margin-left: 0px; margin-right: 0px; width: calc(100% - 0px);">
+      <div data-zdn="ExplicitlySetDate" id="InnerContainerFor-ExplicitlySetDate">
+        <div class="zeus-date-based-content">
+          <div class="zeus-date-part datepaginator" data-zu="/DEV/ESSWEB/EPS5/DEPT/USRS/Example/PowerComponents/HandlerForDateBasedContent" data-zdate="2014-07-01" data-zdl="2014-07-03,2014-06-27,2014-07-08">
+            <ul class="pagination">
+              <li><a href="#" class="dp-nav dp-nav-left" title="" style="width: 19px;"><span class="readers">Previous day</span><i class="glyphicon glyphicon-chevron-left dp-nav-left"></i></a></li>
+              <li><a href="#" class="dp-item" data-moment="2016-12-13" title="Tuesday, 13th December 2016" style="width: 35px;">Mon<br>
+                13th</a></li>
+              <li><a href="#" class="dp-item dp-off" data-moment="2016-12-14" title="Wednesday, 14th December 2016" style="width: 35px;">Tue<br>
+                14th</a></li>
+              <li><a href="#" class="dp-item dp-off" data-moment="2016-12-15" title="Thursday, 15th December 2016" style="width: 35px;">Wed<br>
+                15th</a></li>
+              <li><a href="#" class="dp-item dp-divider" data-moment="2016-12-16" title="Friday, 16th December 2016" style="width: 35px;">Thu<br>
+                16th</a></li>
+              <li><a href="#" class="dp-item" data-moment="2016-12-17" title="Saturday, 17th December 2016" style="width: 35px;">Fri<br>
+                17th</a></li>
+              <li><a href="#" class="dp-item" data-moment="2016-12-18" title="Sunday, 18th December 2016" style="width: 35px;">Sat<br>
+                18th</a></li>
+              <li><a href="#" class="dp-item" data-moment="2016-12-19" title="Monday, 19th December 2016" style="width: 35px;">Sun<br>
+                19th</a></li>
+              <li><a href="#" class="dp-item" data-moment="2016-12-20" title="Tuesday, 20th December 2016" style="width: 35px;">Mon<br>
+                20th</a></li>
+              <li><a href="#" class="dp-item dp-off" data-moment="2016-12-21" title="Wednesday, 21st December 2016" style="width: 35px;">Tue<br>
+                21st</a></li>
+              <li><a href="#" class="dp-item dp-off" data-moment="2016-12-22" title="Thursday, 22nd December 2016" style="width: 35px;">Wed<br>
+                22nd</a></li>
+              <li><a href="#" class="dp-item dp-divider" data-moment="2016-12-23" title="Friday, 23rd December 2016" style="width: 35px;">Thu<br>
+                23rd</a></li>
+              <li><a href="#" class="dp-item" data-moment="2016-12-24" title="Saturday, 24th December 2016" style="width: 35px;">Fri<br>
+                24th</a></li>
+              <li><a href="#" class="dp-item" data-moment="2016-12-25" title="Sunday, 25th December 2016" style="width: 35px;">Sat<br>
+                25th</a></li>
+              <li><a href="#" class="dp-item" data-moment="2016-12-26" title="Monday, 26th December 2016" style="width: 35px;">Sun<br>
+                26th</a></li>
+              <li><a href="#" class="dp-item zhighlight" data-moment="2016-12-27" title="Tuesday, 27th December 2016" style="width: 35px;">Mon<br>
+                27th</a></li>
+              <li><a href="#" class="dp-item dp-off" data-moment="2016-12-28" title="Wednesday, 28th December 2016" style="width: 35px;">Tue<br>
+                28th</a></li>
+              <li><a href="#" class="dp-item dp-off" data-moment="2016-12-29" title="Thursday, 29th December 2016" style="width: 35px;">Wed<br>
+                29th</a></li>
+              <li><a href="#" class="dp-item dp-divider" data-moment="2016-12-30" title="Friday, 30th December 2016" style="width: 35px;">Thu<br>
+                30th</a></li>
+              <li><a href="#" class="dp-item" data-moment="2017-01-01" title="Saturday, 1st January 2017" style="width: 35px;">Fri<br>
+                1st<span class="label">0</span><br>
+                </a></li>
+              <li><a href="#" class="dp-item" data-moment="2017-01-01" title="Sunday, 31st December 2016" style="width: 35px;">Sat<br>
+                31st<span class="label">0</span><br>
+                </a></li>
+              <li><a href="#" class="dp-item" data-moment="2017-01-01" title="Sunday, 1st January 2016" style="width: 35px;">Sun<br>
+                1st<span class="label">0</span><br>
+                </a></li>
+              <li><a href="#" class="dp-item" data-moment="2017-01-02" title="Monday, 2nd January 2017" style="width: 35px;">Mon<br>
+                2nd</a></li>
+              <li><a href="#" class="dp-item dp-selected zhighlight" data-moment="2017-01-03" title="Tuesday, 3rd January 2017" style="width: 163px;"><i id="dp-calendar" class="fa fa-calendar"></i>Tuesday<br>
+                3rd, January 2017</a></li>
+              <li><a href="#" class="dp-item" data-moment="2017-01-04" title="Wednesday, 4th January 2017" style="width: 35px;">Tue<br>
+                4th</a></li>
+              <li><a href="#" class="dp-item dp-off" data-moment="2017-01-05" title="Thursday, 5th January 2017" style="width: 35px;">Wed<br>
+                5th</a></li>
+              <li><a href="#" class="dp-item dp-off" data-moment="2017-01-06" title="Friday, 6th January 2017" style="width: 35px;">Thu<br>
+                6th</a></li>
+              <li><a href="#" class="dp-item dp-divider" data-moment="2017-01-07" title="Saturday, 7th January 2017" style="width: 35px;">Fri<br>
+                7th</a></li>
+              <li><a href="#" class="dp-item zhighlight" data-moment="2017-01-08" title="Sunday, 8th January 2017" style="width: 35px;">Sat<br>
+                8th</a></li>
+              <li><a href="#" class="dp-item" data-moment="2017-01-09" title="Monday, 9th January 2017" style="width: 35px;">Sun<br>
+                9th</a></li>
+              <li><a href="#" class="dp-item" data-moment="2017-01-10" title="Tuesday, 10th January 2017" style="width: 35px;">Mon<br>
+                10th</a></li>
+              <li><a href="#" class="dp-item" data-moment="2017-01-11" title="Wednesday, 11th January 2017" style="width: 35px;">Tue<br>
+                11th</a></li>
+              <li><a href="#" class="dp-item dp-off" data-moment="2017-01-12" title="Thursday, 12th January 2017" style="width: 35px;">Wed<br>
+                12th</a></li>
+              <li><a href="#" class="dp-item dp-off" data-moment="2017-01-13" title="Friday, 13th January 2017" style="width: 35px;">Thu<br>
+                13th</a></li>
+              <li><a href="#" class="dp-item dp-divider" data-moment="2017-01-14" title="Sunday, 14th January 2017" style="width: 35px;">Fri<br>
+                14th</a></li>
+              <li><a href="#" class="dp-item" data-moment="2017-01-15" title="Saturday, 15th January 2017" style="width: 35px;">Sat<br>
+                15th</a></li>
+              <li><a href="#" class="dp-item" data-moment="2017-01-16" title="Sunday, 16th January 2017" style="width: 35px;">Sun<br>
+                16th</a></li>
+              <li><a href="#" class="dp-item" data-moment="2017-01-17" title="Monday, 17th January 2017" style="width: 35px;">Mon<br>
+                17th</a></li>
+              <li><a href="#" class="dp-item" data-moment="2017-01-18" title="Tuesday, 18th January 2017" style="width: 35px;">Tue<br>
+                18th</a></li>
+              <li><a href="#" class="dp-item dp-off" data-moment="2017-01-19" title="Wednesday, 19th January 2017" style="width: 35px;">Wed<br>
+                19th</a></li>
+              <li><a href="#" class="dp-item dp-off" data-moment="2017-01-20" title="Thursday, 20th January 2017" style="width: 35px;">Thu<br>
+                20th</a></li>
+              <li><a href="#" class="dp-item dp-divider" data-moment="2017-01-21" title="Friday, 21st January 2017" style="width: 35px;">Fri<br>
+                21st</a></li>
+              <li><a href="#" class="dp-item" data-moment="2017-01-22" title="Saturday, 22nd January 2017" style="width: 35px;">Sat<br>
+                22nd</a></li>
+              <li><a href="#" class="dp-item" data-moment="2017-01-23" title="Sunday, 23rd January 2017" style="width: 35px;">Sun<br>
+                23rd</a></li>
+              <li><a href="#" class="dp-nav dp-nav-right" title="" style="width: 19px;"><span class="readers">Next day</span><i class="glyphicon glyphicon-chevron-right dp-nav-right"></i></a></li>
+            </ul>
+          </div>
+          <div class="zeus-content-part">You have selected the date: <strong>01/01/2017</strong> </div>
+        </div>
+      </div>
+      <!--column size div tag for property--> 
+    </div>
+    <table class="table table-bordered" style="background-color: white !important;">
+      <thead>
+        <tr>
+          <th></th>
+          <th colspan="4">9:00 AM</th>
+          <th colspan="4">10:00 AM</th>
+          <th colspan="4">11:00 AM</th>
+          <th colspan="4">12:00 PM</th>
+          <th colspan="4">1:00 PM</th>
+          <th colspan="4">2:00 PM</th>
+          <th colspan="4">3:00 PM</th>
+          <th colspan="4">4:00 PM</th>
+          <th colspan="4">5:00 PM</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Jack French (JF1234)</th>
+          <th></th>
+          <th></th>
+          <th class="danger" colspan="2" data-container="body" data-toggle="popover" title="Jack French (JF1234)" data-content="
+<div class=&quot;row&quot;>
+<h3 style=&quot;margin-top:0px !important;&quot;>jobactive Any</h3>
+<div class=&quot;col-md-6&quot;>
+<p>Face to Face</p>
+</div>
+<div class=&quot;col-md-6&quot;>
+<strong>1 day ago, 18 Dec 11:30 - 11:45</strong>
+<p>Some description here</p>
+<p>3 of 10 places booked</p>
+</div>
+</div>
+<div class=&quot;row&quot;>
+<div style=&quot;float:right;&quot;>
+<button href=&quot;#&quot;>Duplicate</button>
+<button href=&quot;#&quot;>More Details</button>
+</div>
+</div>" data-html="true"></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        <tr>
+          <th scope="row">Rick Oliver (RO1234)</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th class="danger" colspan="3"  data-container="body" data-toggle="popover" title="Rick Oliver (RO1234) + 4 others" data-content="
+<div class=&quot;row&quot;>
+<h3 style=&quot;margin-top:0px !important;&quot;>Team Xmas Party</h3>
+<div class=&quot;col-md-6&quot;>
+<p></p>
+</div>
+<div class=&quot;col-md-6&quot;>
+<strong>In 3 days, 19 Dec 1:00PM - 5:00PM</strong>
+<p></p>
+</div>
+</div>
+<div class=&quot;row&quot;>
+<div style=&quot;float:right;&quot;>
+<button href=&quot;#&quot;>Details</button>
+</div>
+</div>" data-html="true"></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        <tr>
+          <th scope="row">Inez Mitchell (IM1234)</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th class="danger" colspan="6" data-container="body" data-toggle="popover" title="Inez Mitchell (IM1234)" data-content="
+<div class=&quot;row&quot;>
+<h3 style=&quot;margin-top:0px !important;&quot;>jobactive Any</h3>
+<div class=&quot;col-md-6&quot;>
+<p>Face to Face</p>
+</div>
+<div class=&quot;col-md-6&quot;>
+<strong>In 3 days, Tues 3 Jan 11:30 - 11:45</strong>
+<p>Some description here</p>
+<p>5 of 10 places booked</p>
+</div>
+</div>
+<div class=&quot;row&quot;>
+<div style=&quot;float:right;&quot;>
+<button href=&quot;#&quot;>Details</button>
+<button href=&quot;#&quot;>Book Now</button>
+</div>
+</div>" data-html="true"></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        <tr>
+          <th scope="row">Ross Bowers (RB1234)</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th class="danger" colspan="2" data-container="body" data-toggle="popover" title="Ross Bowers (RB1234)" data-content="
+<div class=&quot;row&quot;>
+<h3 style=&quot;margin-top:0px !important;&quot;>Doreen Greene</h3>
+<div class=&quot;col-md-6&quot;>
+<p>Face to Face</p>
+<p>No Interpreter Required</p>
+<p>No Booking Notes</p>
+</div>
+<div class=&quot;col-md-6&quot;>
+<strong>Today 19 Dec 11:30 - 11:45</strong>
+<p>jobactive Re-engagement</p>
+<p>Provider Re-engagement</p>
+</div>
+</div>
+<div class=&quot;row&quot;>
+<div style=&quot;float:right;&quot;>
+<button href=&quot;#&quot;>Did Not Attend</button>
+<button href=&quot;#&quot;>Attended</button>
+</div>
+</div>" data-html="true"></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        <tr>
+          <th scope="row">Freddie Young (FY1234)</th>
+          <th class="danger" data-container="body" data-toggle="popover" title="Freddie Young (FY1234)" data-content="
+<div class=&quot;row&quot;>
+<h3 style=&quot;margin-top:0px !important;&quot;>Doyle Spencer</h3>
+<div class=&quot;col-md-6&quot;>
+<p>Face to Face</p>
+<p>No Interpreter Required</p>
+<p>No Booking Notes</p>
+</div>
+<div class=&quot;col-md-6&quot;>
+<strong>In 4 days Wed 6 Jan 09:00 - 09:30</strong>
+<p>jobactive Contact</p>
+</div>
+</div>
+<div class=&quot;row&quot;>
+<div style=&quot;float:right;&quot;>
+<button href=&quot;#&quot;>Reschedule Now</button>
+<button href=&quot;#&quot;>Cancel Now</button>
+</div>
+</div>" data-html="true"></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--contentSection-->
+  
+  <div class="theme-panel" style="top: 100px; z-index: 1020;"> <a href="javascript:;" data-ztt="left" title="" data-click="theme-panel-expand" class="theme-collapse-btn ui-sortable" data-original-title="Job Seeker (Alt+Q)"><i class="fa fa-user"></i><span class="readers">open job seeker Resource Finder (Alt+Q)</span></a>
+    <div class="theme-panel-content" style="display: none;">
+      <div class="history">
+        <form method="GET" novalidate>
+          <h3 data-zu="/DEV/ESSWEB/EPS5/DEPT/USRS/Calendar/Calendar/Index/ZEUS_QF_PLACEHOLDER">Quick Find</h3>
+          <label for="zqf-24" class="readers">job seeker quick find</label>
+          <label for="zqf-24">Enter Id: <a class="hintTip" role="presentation" href="javascript:;"><span>Help tip: ID needs to include 7 to 10 digits. An incomplete ID will return no match. Selecting a record will reload the page.</span></a></label>
+          <div class="qf-method qf-method-search">
+            <select id="zqf-24" class="rhea-ajax" data-zlz="true" data-zrot="disabled" data-zu="/DEV/ESSWEB/EPS5/DEPT/USRS/Ajax/JobseekerSearch" multiple="multiple" style="display: none;">
+            </select>
+            <div class="amc-aria-multi-complete single-select">
+              <input readonly type="text" aria-label="job seeker quick find" class="form-control" style="display: none;">
+              <div class="amc-box form-control" tabindex="0" aria-expanded="false" role="application"><i class="fa fa-search right-icon"></i><span id="amc-17-selected-label" class="reader-only">Selected values for autocomplete job seeker quick find. Press enter to view list options.</span>
+                <ul class="amc-selected-choices" aria-labelledby="amc-17-selected-label">
+                </ul>
+              </div>
+              <div class="amc-listbox" style="display: none;">
+                <input type="text" role="combobox" aria-autocomplete="list" aria-multiselectable="true" aria-owns="amc-17-list" aria-activedescendant="" aria-label="Select job seeker quick find, start typing then use tab key so access values" class="form-control">
+                <div class="amc-list-substitute" aria-hidden="true" style="display: none;">Loading...</div>
+                <div class="amc-list-substitute" aria-hidden="true" style="display: none;">No matches</div>
+                <div class="amc-list-substitute" aria-hidden="true" style="display: none;">Error</div>
+                <ul class="amc-all-choices" id="amc-17-list" style="display: none;">
+                </ul>
+                <div tabindex="0" class="reader-only"></div>
+              </div>
+              <div class="reader-only" aria-live="assertive" aria-relevant="additions"><span></span></div>
+            </div>
+          </div>
+        </form>
+        <h3>Last Accessed</h3>
+        No recent job seeker records</div>
+    </div>
+  </div>
+  <a class="btn btn-icon btn-circle btn-primary btn-scroll-to-top hidden" data-click="scroll-top" href="javascript:;"><i class="fa fa-angle-up"></i></a> </div>
+<div id="msgLegacy"><a href="http://windows.microsoft.com/en-us/internet-explorer/products/ie/home" target="_blank" title="Your internet browser is not supported. Click here for update info. (opens in a new window)">Your internet browser is not supported. Click here for update info.</a></div>
+<div class="modal modal-message fade" id="contract_modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title">Contract picker</h4>
+      </div>
+      <div class="modal-body">
+        <h3>Choose a contract</h3>
+        <a href="javascript:;" class="contract-picker">
+        <div class="bg-green widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fa fa-user"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">jobactive</div>
+          <div class="stats-desc">EPS5</div>
+        </div>
+        </a><a href="javascript:;" class="contract-picker">
+        <div class="bg-red widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-torso-business"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">Work for the Dole Coordinator</div>
+          <div class="stats-desc">WDC5</div>
+        </div>
+        </a><a href="javascript:;" class="contract-picker">
+        <div class="bg-purple widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fa fa-lightbulb-o"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">NEIS New Enterprise Incentive Scheme</div>
+          <div class="stats-desc">NEI5</div>
+        </div>
+        </a><a href="javascript:;" class="contract-picker">
+        <div class="bg-orange widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fa fa-leaf"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">Harvest Labour Services</div>
+          <div class="stats-desc">HLS5</div>
+        </div>
+        </a><a href="javascript:;" class="contract-picker">
+        <div class="bg-blue widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-universal-access"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">DES - Disability Management Service</div>
+          <div class="stats-desc">DESA</div>
+        </div>
+        </a><a href="javascript:;" class="contract-picker">
+        <div class="bg-aqua widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-male-female"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">DES - Employment Support Service</div>
+          <div class="stats-desc">DESB</div>
+        </div>
+        </a><a href="javascript:;" class="contract-picker">
+        <div class="bg-magenta widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-shuffle"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">Transition to Work</div>
+          <div class="stats-desc">TTW5</div>
+        </div>
+        </a><a href="javascript:;" class="contract-picker">
+        <div class="bg-violet widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fa fa-child"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">ParentsNext</div>
+          <div class="stats-desc">SPP5</div>
+        </div>
+        </a><a href="javascript:;" class="contract-picker">
+        <div class="bg-lime widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-clipboard-notes"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">DES - National Panel of Assessors</div>
+          <div class="stats-desc">NPA</div>
+        </div>
+        </a><a href="javascript:;" class="contract-picker">
+        <div class="bg-yellow widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-results-demographics"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">DES - JobAccess Provider</div>
+          <div class="stats-desc">JAP</div>
+        </div>
+        </a><a href="javascript:;" class="contract-picker">
+        <div class="bg-darkpurple widget-stats widget">
+          <div class="stats-icon-lg stats-icon"><i class="fi-puzzle"></i></div>
+          <div class="stats-title"></div>
+          <div class="stats-number">ESAt/ JCA</div>
+          <div class="stats-desc">CWCA</div>
+        </div>
+        </a></div>
+      <div class="modal-footer"><a class="btn btn-sm btn-white" href="javascript:;" data-dismiss="modal">Close</a></div>
+    </div>
+  </div>
+</div>
+<div aria-hidden="true" class="hidden" data-ak="true">{"QuickFindAccessKey":"alt+q","JumpToAccessKey":"alt+j","MenuSearchFilter":"alt+s","FocusRightSidebar":"alt+r","GoToAddressBar":"alt+d"}</div>
+<div data-zr="{&quot;SetWidgetLayout&quot;:&quot;/DEV/ESSWEB/EPS5/DEPT/USRS/Widgets/SetWidgetLayout&quot;,&quot;AddWidget&quot;:&quot;/DEV/ESSWEB/EPS5/DEPT/USRS/Widgets/AddWidget&quot;,&quot;SetWidgetDataContext&quot;:&quot;/DEV/ESSWEB/EPS5/DEPT/USRS/Widgets/SetWidgetDataContext&quot;,&quot;ResetView&quot;:&quot;/DEV/ESSWEB/EPS5/DEPT/USRS/Widgets/ResetView&quot;,&quot;CreateNewView&quot;:&quot;/DEV/ESSWEB/EPS5/DEPT/USRS/Widgets/CreateNewView&quot;,&quot;DeleteView&quot;:&quot;/DEV/ESSWEB/EPS5/DEPT/USRS/Widgets/DeleteView&quot;,&quot;SetDefaultView&quot;:&quot;/DEV/ESSWEB/EPS5/DEPT/USRS/Widgets/SetDefaultView&quot;,&quot;ApplicationVirtualDirectory&quot;:&quot;/DEV/ESSWEB&quot;,&quot;CkeditorBasePath&quot;:&quot;/DEV/ESSWEB/Scripts/ckeditor/&quot;}" id="zeus-ajax-routes"></div>
+<script src="Calendar _ ESS Web_files/jquery-1.8.2.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery-ui-1.10.4.min.js"></script> 
+<script src="Calendar _ ESS Web_files/bootstrap-3.2.0.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery.validate-1.11.1.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery.validate.unobtrusive-1.11.1.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery-auto-numeric-1.7.5.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery-textrange.js"></script> 
+<script src="Calendar _ ESS Web_files/equalize.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery-blockUI-2.61.0.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery.slimscroll-1.2.0.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery.gritter-1.7.4.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery.flot-0.8.2.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery.flot.extents.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery.flot.pie.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery.flot.resize.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery.flot.time.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery.flot.stack.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery.flot.stackpercent.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery.flot.orderBars.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery.sparkline-2.1.2.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery-jvectormap-1.2.2.min.js"></script> 
+<script src="Calendar _ ESS Web_files/moment-2.8.1.js"></script> 
+<script src="Calendar _ ESS Web_files/bootstrap-datepicker.js"></script> 
+<script src="Calendar _ ESS Web_files/bootstrap-maxlength.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery.timepicker-1.4.11.js"></script> 
+<script src="Calendar _ ESS Web_files/bootstrap-datepaginator-1.1.0.js"></script> 
+<script src="Calendar _ ESS Web_files/apps-1.3.0.js"></script> 
+<script src="Calendar _ ESS Web_files/shortcut-2.01b.js"></script> 
+<script src="Calendar _ ESS Web_files/autogrow.js"></script> 
+<script src="Calendar _ ESS Web_files/ckeditor.js"></script> 
+<script src="Calendar _ ESS Web_files/en.js"></script> 
+<script src="Calendar _ ESS Web_files/config.js"></script> 
+<script src="Calendar _ ESS Web_files/styles.js"></script> 
+<script src="Calendar _ ESS Web_files/anchor.js"></script> 
+<script src="Calendar _ ESS Web_files/link.js"></script> 
+<script src="Calendar _ ESS Web_files/paste.js"></script> 
+<script src="Calendar _ ESS Web_files/default.js"></script>
+<div style="position:absolute;left:-9999px;top:-9999px;"></div>
+<script src="Calendar _ ESS Web_files/table.js"></script> 
+<script src="Calendar _ ESS Web_files/tablecell.js"></script> 
+<script src="Calendar _ ESS Web_files/aria-select.js"></script> 
+<script src="Calendar _ ESS Web_files/filterTable.js"></script> 
+<script src="Calendar _ ESS Web_files/date-1.0.alpha.1.js"></script> 
+<script src="Calendar _ ESS Web_files/fullcalendar-2.2.3.js"></script> 
+<script src="Calendar _ ESS Web_files/Zeus.fullCalendar.js"></script> 
+<script src="Calendar _ ESS Web_files/zeus-1.0.js"></script> 
+<script src="Calendar _ ESS Web_files/zeus.validate-1.0.js"></script> 
+<script src="Calendar _ ESS Web_files/zeus.validate.unobtrusive-1.0.js"></script> 
+<script src="Calendar _ ESS Web_files/interface-1.3.0.js"></script> 
+<script src="Calendar _ ESS Web_files/jstree-3.2.1.js"></script> 
+<script src="Calendar _ ESS Web_files/jquery.fileDownload-1.4.5.js"></script> 
+<script src="Calendar _ ESS Web_files/sortTable.js"></script> <script src="Calendar _ ESS Web_files/JobPlan.js"></script> <script src="Calendar _ ESS Web_files/Payment.js"></script>
+<div data-zeus-alerts="[]" id="zeus-alert"></div>
+<script>
+ // VIEW MODEL
+    public class DateBasedContentExampleViewModel
+    {
+
+        [Display(GroupName = "Example")]
+        public DateBasedContentViewModel TodaysDate { get; set; }
+
+        [Display(GroupName = "Example 2")]
+        public DateBasedContentViewModel ExplicitlySetDate { get; set; }
+
+    }
+
+
+
+    // CONTROLLER
+    public class ServerSideElementsController
+    {
+
+        [Menu("Date based content", Order = 70, ParentAction = "Index")]
+        public ActionResult DateBasedContent()
+        {
+            var model = new DateBasedContentExampleViewModel();
+
+            model.TodaysDate = new DateBasedContentViewModel();
+            model.TodaysDate.Area = "Example";
+            model.TodaysDate.Controller = "PowerComponents";
+            model.TodaysDate.Action = "HandlerForDateBasedContent";
+
+            model.ExplicitlySetDate = new DateBasedContentViewModel();
+            model.ExplicitlySetDate.Action = "HandlerForDateBasedContent";
+            model.ExplicitlySetDate.FocusDate = DateTime.Parse("2017-01-01");
+            model.ExplicitlySetDate.HighlightedDates.Add(DateTime.Parse("2017-01-03"));
+            model.ExplicitlySetDate.HighlightedDates.Add(DateTime.Parse("2016-12-27"));
+            model.ExplicitlySetDate.HighlightedDates.Add(DateTime.Parse("2017-01-08"));
+
+            return View(model);
+        }
+
+        [AjaxOnly]
+        public ActionResult HandlerForDateBasedContent(DateTime selectedDate)
+        {
+            var model = new ContentViewModel()
+                    .AddText("You have selected the date:")
+                    .AddTitle(selectedDate.ToString("dd/MM/yyyy"))
+            ;
+
+            return PartialView("Basic", model);
+		}
+    }
+	
+	$('body').on('click', function (e) {
+    $('[data-toggle=popover]').each(function () {
+        // hide any open popovers when the anywhere else in the body is clicked
+        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+            $(this).popover('hide');
+        }
+    });
+});
+
+    </script>
+</body>
+</html>

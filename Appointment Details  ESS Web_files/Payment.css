@@ -1,0 +1,63 @@
+.payment-ot-icon {
+	padding-top: 2em; padding-bottom: 7em; margin-top: -2em; margin-bottom: -7em; display: block;
+}
+.payment-ot-iconlink {
+	padding-top: 2em; padding-bottom: 7em; margin-top: -2em; margin-bottom: -7em; display: block;
+}
+.payment-ot-icon {
+	margin-left: 0.3em;
+}
+.payment-ot-icon-large {
+	width: 33px !important; height: 33px !important; padding-top: 5px;
+}
+.payment-ot-icon-large::before {
+	padding-left: 0px !important; vertical-align: 0% !important; transform: rotate(0deg) !important; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg);
+}
+.payment-ot-iconlink:hover {
+	opacity: 0.5;
+}
+.payment-ot-iconlink:focus {
+	opacity: 0.5;
+}
+.payment-ot-iconlink:active {
+	opacity: 0.5;
+}
+.active.payment-ot-iconlink {
+	opacity: 0.5;
+}
+.payment-ot-bg {
+	padding-top: 2em; padding-bottom: 7em; padding-left: 3em;
+}
+.payment-ot-icon-B::before {
+	font-family: Arial; font-weight: bold; content: "B";
+}
+.payment-ot-icon-F::before {
+	font-family: Arial; font-weight: bold; content: "F";
+}
+.payment-ot-icon-FA::before {
+	font-family: Arial; font-weight: bold; content: "FA";
+}
+.payment-ot-icon-N::before {
+	font-family: Arial; font-weight: bold; content: "N";
+}
+.payment-ot-icon-NDO::before {
+	font-family: Arial; font-weight: bold; content: "NDO";
+}
+.payment-ot-icon-DM::before {
+	font-family: Arial; font-weight: bold; content: "DM";
+}
+.payment-ot-icon-P::before {
+	font-family: Arial; font-weight: bold; content: "P";
+}
+.payment-ot-icon-S::before {
+	font-family: Arial; font-weight: bold; content: "S";
+}
+.payment-ot-icon-SD::before {
+	font-family: Arial; font-weight: bold; content: "SD";
+}
+.payment-ot-icon-T::before {
+	font-family: Arial; font-weight: bold; content: "T";
+}
+.payment-ot-icon-TRF::before {
+	font-family: Arial; font-weight: bold; content: "TRF";
+}

@@ -1,0 +1,57 @@
+.datepaginator {
+	height: 60px; font-size: 12px;
+}
+.datepaginator-sm {
+	height: 40px; font-size: 10px;
+}
+.datepaginator-lg {
+	height: 80px; font-size: 14px;
+}
+.pagination {
+	margin: 0px; padding: 0px; white-space: nowrap;
+}
+.dp-nav {
+	margin: 0px !important; padding: 22px 0px !important; width: 20px; height: 60px; text-align: center;
+}
+.dp-nav-square-edges {
+	border-radius: 0px !important;
+}
+.dp-item {
+	margin: 0px !important; padding: 13px 0px !important; width: 35px; height: 60px; text-align: center; border-left-style: hidden !important;
+}
+.dp-item-sm {
+	padding: 5px !important; height: 40px !important;
+}
+.dp-item-lg {
+	padding: 22px 0px !important; height: 80px !important;
+}
+.dp-nav-sm {
+	padding: 11px 0px !important; height: 40px !important;
+}
+.dp-nav-lg {
+	padding: 33px 0px !important; height: 80px !important;
+}
+a.dp-nav-right {
+	border-left-style: hidden !important;
+}
+.dp-divider {
+	border-left-color: rgb(221, 221, 221) !important; border-left-width: 2px !important; border-left-style: solid !important;
+}
+.dp-off {
+	background-color: rgb(240, 240, 240) !important;
+}
+.dp-no-select {
+	color: rgb(204, 204, 204) !important; background-color: rgb(240, 240, 240) !important;
+}
+.dp-no-select:hover {
+	background-color: rgb(240, 240, 240) !important;
+}
+.dp-today {
+	color: rgb(255, 255, 255) !important; background-color: rgb(136, 181, 219) !important;
+}
+.dp-selected {
+	width: 140px; color: rgb(255, 255, 255) !important; background-color: rgb(66, 139, 202) !important;
+}
+#dp-calendar {
+	padding: 3px 5px 0px 0px !important; right: 0px; margin-right: 3px; position: absolute;
+}

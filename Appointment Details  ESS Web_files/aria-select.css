@@ -1,0 +1,69 @@
+.amc-aria-multi-complete .reader-only {
+	left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; position: absolute;
+}
+.amc-aria-multi-complete {
+	position: relative;
+}
+.amc-aria-multi-complete * {
+	color: black;
+}
+.amc-aria-multi-complete .amc-box {
+	border: thin solid black; border-image: none; min-height: 2em;
+}
+.amc-aria-multi-complete .amc-listbox {
+	padding: 3px; border: thin solid black; border-image: none; width: 100%; position: absolute; z-index: 50; background-color: rgb(255, 255, 255);
+}
+.amc-aria-multi-complete .amc-listbox input {
+	border: thin solid black; border-image: none; width: 100%;
+}
+.amc-aria-multi-complete ul.amc-all-choices {
+	list-style: none; padding: 0px; overflow: auto; position: relative; max-height: 160px;
+}
+.amc-aria-multi-complete ul.amc-all-choices li {
+	margin: 0px; padding: 0px; width: 100%;
+}
+.amc-aria-multi-complete ul.amc-all-choices li:hover {
+	background-color: rgb(221, 221, 221);
+}
+.amc-aria-multi-complete ul.amc-all-choices li.selected {
+	background-color: rgb(93, 165, 232);
+}
+.amc-aria-multi-complete ul.amc-all-choices li.selected:hover {
+	background-color: rgb(77, 136, 193);
+}
+.amc-aria-multi-complete ul.amc-all-choices input + label {
+	margin: 0px; padding: 4px; border: currentColor; border-image: none; width: 100%; text-align: left; background-color: transparent;
+}
+.amc-aria-multi-complete ul.amc-all-choices input:focus + label {
+	padding: 2px; border: 2px solid red; border-image: none; font-weight: bold;
+}
+.amc-aria-multi-complete ul.amc-selected-choices {
+	list-style: none; margin: 0px; padding: 0px; display: inline-block; position: relative;
+}
+.amc-aria-multi-complete ul.amc-selected-choices li {
+	margin: 2px; border: thin solid black; border-image: none; display: inline-block; background-color: rgb(204, 204, 204);
+}
+.amc-aria-multi-complete ul.amc-selected-choices li > span {
+	padding: 2px; display: inline-block;
+}
+.amc-aria-multi-complete ul.amc-selected-choices li button {
+	background: inherit; margin: 0px; padding: 2px 5px; border: currentColor; border-image: none; font-weight: bold; vertical-align: baseline;
+}
+.amc-aria-multi-complete ul.amc-selected-choices li:hover {
+	background-color: rgb(221, 221, 221);
+}
+.amc-aria-multi-complete ul.amc-selected-choices li button:focus {
+	background-color: rgb(85, 85, 85);
+}
+.amc-aria-multi-complete ul.amc-selected-choices li button:hover {
+	background-color: rgb(85, 85, 85);
+}
+.amc-aria-multi-complete input {
+	margin: 1px; border: currentColor; border-image: none; height: 100%; display: inline-block;
+}
+.amc-list-substitute {
+	padding: 3px; border: thin solid black; border-image: none; display: none; position: relative;
+}
+.amc-aria-multi-complete input[disabled] {
+	width: 100%;
+}

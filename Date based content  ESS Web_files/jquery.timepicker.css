@@ -1,0 +1,57 @@
+.ui-timepicker-wrapper {
+	background: rgb(255, 255, 255); margin: 0px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 6.5em; height: 150px; z-index: 10001; -ms-overflow-y: auto; box-shadow: 0px 5px 10px rgba(0,0,0,0.2); -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.ui-timepicker-with-duration.ui-timepicker-wrapper {
+	width: 13em;
+}
+.ui-timepicker-step-30.ui-timepicker-with-duration.ui-timepicker-wrapper {
+	width: 11em;
+}
+.ui-timepicker-step-60.ui-timepicker-with-duration.ui-timepicker-wrapper {
+	width: 11em;
+}
+.ui-timepicker-list {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.ui-timepicker-duration {
+	color: rgb(136, 136, 136); margin-left: 5px;
+}
+.ui-timepicker-list:hover .ui-timepicker-duration {
+	color: rgb(136, 136, 136);
+}
+.ui-timepicker-list li {
+	list-style: none; margin: 0px; padding: 3px 0px 3px 5px; color: rgb(0, 0, 0); white-space: nowrap; cursor: pointer;
+}
+.ui-timepicker-list:hover .ui-timepicker-selected {
+	background: rgb(255, 255, 255); color: rgb(0, 0, 0);
+}
+li.ui-timepicker-selected {
+	background: rgb(25, 128, 236); color: rgb(255, 255, 255);
+}
+.ui-timepicker-list li:hover {
+	background: rgb(25, 128, 236); color: rgb(255, 255, 255);
+}
+.ui-timepicker-list .ui-timepicker-selected:hover {
+	background: rgb(25, 128, 236); color: rgb(255, 255, 255);
+}
+li.ui-timepicker-selected .ui-timepicker-duration {
+	color: rgb(204, 204, 204);
+}
+.ui-timepicker-list li:hover .ui-timepicker-duration {
+	color: rgb(204, 204, 204);
+}
+.ui-timepicker-list li.ui-timepicker-disabled {
+	color: rgb(136, 136, 136); cursor: default;
+}
+.ui-timepicker-list li.ui-timepicker-disabled:hover {
+	color: rgb(136, 136, 136); cursor: default;
+}
+.ui-timepicker-list li.ui-timepicker-disabled.ui-timepicker-selected {
+	color: rgb(136, 136, 136); cursor: default;
+}
+.ui-timepicker-list li.ui-timepicker-disabled:hover {
+	background: rgb(242, 242, 242);
+}
+.ui-timepicker-list li.ui-timepicker-disabled.ui-timepicker-selected {
+	background: rgb(242, 242, 242);
+}
